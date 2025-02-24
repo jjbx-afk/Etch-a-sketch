@@ -1,0 +1,39 @@
+.grid-line{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    clear: both;
+}
+.mouse-over{
+    background-color: #eec0c8;
+}
+
+.btn{
+    align-items: enter;
+    background-color: #fee6e3;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 10px;
+    height: 28px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 100px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.container{
+    width: min-content;
+    margin-inline: auto;
+    margin-block: 150px;
+}
+
+.btn-container{
+    text-align: center;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
