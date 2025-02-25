@@ -1,37 +1,52 @@
-.grid-line{
+.title {
+    text-align: center;
+    margin-block: 8%;
+    color: #eec0c8;
+    font-family: Inter, sans-serif;
+    text-decoration: underline;
+
+}
+
+.grid-line {
+    display: flex;
+    margin-inline: auto;
+}
+
+.inner-cells {
     display: flex;
     height: 20px;
     width: 20px;
     border: 1px solid black;
     clear: both;
 }
-.mouse-over{
+
+.mouse-over {
     background-color: #eec0c8;
 }
 
-.btn{
+.btn {
     align-items: enter;
     background-color: #fee6e3;
     border-radius: 8px;
     cursor: pointer;
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 10px;
     height: 28px;
     justify-content: center;
     max-width: 100%;
-    padding: 0 100px;
+    padding: 0 35px;
     text-align: center;
     text-decoration: none;
 
 }
 
-.container{
+.container {
     width: min-content;
     margin-inline: auto;
     margin-block: 150px;
 }
 
-.btn-container{
+.btn-container {
     text-align: center;
     display: flex;
     gap: 3%;
